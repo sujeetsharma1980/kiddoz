@@ -6,11 +6,5 @@
 export const environment = {
   production: true,
   firebase: {
-    apiKey: "AIzaSyAS9yTuuwE9tpc2VLqFUpQlMsAyAg36x18",
-    authDomain: "kiddozz.firebaseapp.com",
-    databaseURL: "https://aviapp-70abf.firebaseio.com",
-    projectId: "aviapp-70abf",
-    storageBucket: "aviapp-70abf.appspot.com",
-    messagingSenderId: "447640335798"
-  }
+     }
 };
