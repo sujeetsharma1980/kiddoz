@@ -6,11 +6,11 @@
 export const environment = {
   production: false,
   firebase: {
-    apiKey: "AIzaSyBmNkRGMwyD_Z6sPYY3FtKI4H9w7kUzYi4",
-    authDomain: "cohesive-apogee-95023.firebaseapp.com",
-    databaseURL: "https://cohesive-apogee-95023.firebaseio.com",
-    projectId: "cohesive-apogee-95023",
-    storageBucket: "cohesive-apogee-95023.appspot.com",
-    messagingSenderId: "546552200902"
+    apiKey: "AIzaSyAS9yTuuwE9tpc2VLqFUpQlMsAyAg36x18",
+    authDomain: "kiddozz.firebaseapp.com",
+    databaseURL: "https://aviapp-70abf.firebaseio.com",
+    projectId: "aviapp-70abf",
+    storageBucket: "aviapp-70abf.appspot.com",
+    messagingSenderId: "447640335798"
   }
 };
