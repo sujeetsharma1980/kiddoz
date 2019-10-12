@@ -48,7 +48,7 @@ export class UserComponent implements OnInit{
       console.log(res);
     }, err => console.log(err))
   }
-
+/*
   logout(){
     this.authService.doLogout()
     .then((res) => {
@@ -56,5 +56,5 @@ export class UserComponent implements OnInit{
     }, (error) => {
       console.log("Logout error", error);
     });
-  }
+  }*/
 }

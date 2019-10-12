@@ -1,4 +1,4 @@
-<!--<div class="page-container">
+<div class="page-container">
 	<div class="side-bar">
 		<ul class="nav flex-column">
 	  	<li class="nav-item">
@@ -10,13 +10,20 @@
 	    	<a class="nav-link" routerLink="new-user">
 					<ion-icon name="add"></ion-icon>
 				</a>
+      </li>
+      <li class="nav-item">
+	    	<a class="nav-link" routerLink="user">
+					<ion-icon name="person"></ion-icon>
+				</a>
+      </li>
+      <li class="nav-item">
+	    	<a class="nav-link" (click)="logout()">
+					<ion-icon name="exit"></ion-icon>
+				</a>
 	  	</li>
 		</ul>
 	</div>
 	<div class="content-container">
  		<router-outlet></router-outlet>
 	</div>
-</div>-->
-<main>
-	<router-outlet></router-outlet>
-</main>
+</div>

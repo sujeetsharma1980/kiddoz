@@ -24,6 +24,8 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MatButtonModule, MatInputModule, MatSliderModule, MatDialogModule } from '@angular/material';
 
 import { AppComponent } from './app.component';
+import { LandingpageComponent } from './landingpage/landingpage.component';
+import { LandingPageResolver } from './landingpage/landingpage.resolver';
 
 @NgModule({
   declarations: [
@@ -34,7 +36,8 @@ import { AppComponent } from './app.component';
     AvatarDialogComponent,
     EditUserComponent,
     NewUserComponent,
-    HomeComponent
+    HomeComponent,
+    LandingpageComponent
   ],
   entryComponents: [AvatarDialogComponent],
   imports: [
@@ -51,7 +54,7 @@ import { AppComponent } from './app.component';
     MatSliderModule,
     MatDialogModule
   ],
-  providers: [AuthService, UserService, UserResolver, AuthGuard, EditUserResolver],
+  providers: [AuthService, UserService, UserResolver, AuthGuard, EditUserResolver, LandingPageResolver],
   bootstrap: [AppComponent],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA

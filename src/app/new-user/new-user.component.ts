@@ -73,7 +73,7 @@ export class NewUserComponent implements OnInit {
     .then(
       res => {
         this.resetFields();
-        this.router.navigate(['/home']);
+        this.router.navigate(['/landing/home']);
       }
     )
   }
